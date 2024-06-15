@@ -1,0 +1,107 @@
+* {
+  font-size: 13px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: center;
+}
+
+.taller-carusel {
+  width: 80vw;
+  margin: 0 auto;
+  display: block;
+}
+
+.producto-tarjeta {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 50px;
+  color: #fff;
+  background-color: pink;
+  text-align: center;
+  padding: 10px;
+}
+
+.img_carrito {
+  width: 25px;
+}
+
+.carousel-inner {
+  height: 85vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img_logo {
+  width: 40px;
+}
+
+.custom-btn {
+  background-color: pink;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.custom-btn:hover {
+  background-color: palevioletred;
+  color: black;
+}
+.card-body {
+  border: 1px solid pink;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.carousel-item img {
+  height: 300px;
+  object-fit: cover;
+}
+.carousel-caption {
+  color: black;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 50vh;
+}
+
+.img_logo2 {
+  width: 200px;
+}
+.tutilos_ {
+  color: pink;
+}
+.tutilos_:hover {
+  color: palevioletred;
+}
+
+.parrafos {
+  justify-content: center;
+  display: flex;
+  color: #948979;
+  text-align: center;
+}
+.pie {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-item {
+    height: 150px;
+  }
+  .carousel {
+    margin: 0 20px;
+  }
+}
